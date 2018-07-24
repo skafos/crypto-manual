@@ -1,0 +1,11 @@
+project_token: cb0bff0eb1e1b8d916c756a2
+name: crypto-manual
+jobs:
+  - job_id: e34bd54c-37af-4021-9872-fe7d60fde15d
+    language: python
+    name: Main
+    entrypoint: main.py
+    resources:
+      limits:
+        cpu: 6
+        memory: 2Gi
